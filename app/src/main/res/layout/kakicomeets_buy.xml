@@ -34,8 +34,14 @@
             android:layout_height="wrap_content"
             android:text="値段" /><!--上に同じ-->
         </LinearLayout>
-
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/buyLink"
+        android:autoLink="all"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text="購入する(決済システムへのリンク)" />
 
 
 </LinearLayout>
